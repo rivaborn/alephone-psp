@@ -1,0 +1,465 @@
+﻿%%{ init: { 'theme': 'dark', 'flowchart': { 'curve': 'basis' } } }%%
+graph LR
+
+  subgraph Source_Files
+    _pretexture_horizontal_polygon_lines["_pretexture_horizontal_polygon_lines"]
+    _receiveMessage__["_receiveMessage()"]
+    _PSPSDLProfilerMg__destructor_["~PSPSDLProfilerMg (destructor)"]
+    a1_p2cstr___a1_c2pstr["a1_p2cstr / a1_c2pstr"]
+    AddItemsToPlayer["AddItemsToPlayer"]
+    adjust_platform_endpoint_and_line_heights["adjust_platform_endpoint_and_line_heights"]
+    adjust_platform_for_media["adjust_platform_for_media"]
+    adjust_platform_sides["adjust_platform_sides"]
+    AIStream__read__AOStream__write__template_["AIStream::read, AOStream::write (template)"]
+    allocate_pathfinding_memory["allocate_pathfinding_memory"]
+    allocate_player_memory["allocate_player_memory"]
+    AnimTxtr__Translate["AnimTxtr::Translate"]
+    AnimTxtr_Translate["AnimTxtr_Translate"]
+    AnimTxtr_Update["AnimTxtr_Update"]
+    audio_input_proc["audio_input_proc"]
+    AutoStringSetBuilder__constructor_["AutoStringSetBuilder (constructor)"]
+    begin["begin"]
+    BigChunkOfDataMessage__deflate["BigChunkOfDataMessage::deflate"]
+    BinderSet__migrate_all_first_to_second__["BinderSet::migrate_all_first_to_second()"]
+    BinderSet__migrate_all_second_to_first__["BinderSet::migrate_all_second_to_first()"]
+    BoostThreadPriority["BoostThreadPriority"]
+    Buffer_Functions__luaL_buffinit__luaL_addlstring__luaL_pushresult_["Buffer Functions (luaL_buffinit, luaL_addlstring, luaL_pushresult)"]
+    build_shading_tables16["build_shading_tables16"]
+    build_stringvector_from_stringset["build_stringvector_from_stringset"]
+    BytesToStream__inline_["BytesToStream (inline)"]
+    calculate_platform_extrema["calculate_platform_extrema"]
+    calculate_shading_table["calculate_shading_table"]
+    cast_render_ray["cast_render_ray"]
+    change_gamma_level["change_gamma_level"]
+    change_polygon_height["change_polygon_height"]
+    ChatHistory__append["ChatHistory::append"]
+    ChatHistory__clear["ChatHistory::clear"]
+    check_player_weapons_for_environment_change["check_player_weapons_for_environment_change"]
+    CircularByteBuffer__constructor_["CircularByteBuffer (constructor)"]
+    Client__drop["Client::drop"]
+    Client__handleAcceptJoinMessage["Client::handleAcceptJoinMessage"]
+    Close["Close"]
+    close_network_speaker["close_network_speaker"]
+    CloseLuaScript["CloseLuaScript"]
+    Code_Loading__luaL_loadfile__luaL_loadstring__luaL_loadbuffer_["Code Loading (luaL_loadfile, luaL_loadstring, luaL_loadbuffer)"]
+    ColorfulChatWidget___ColorfulChatWidget["ColorfulChatWidget::~ColorfulChatWidget"]
+    ComposeInterpretError["ComposeInterpretError"]
+    ConnectPool__connect_const_IPaddress__["ConnectPool::connect(const IPaddress&)"]
+    ConnectPool__connect_const_std__string___uint16_["ConnectPool::connect(const std::string&, uint16)"]
+    ConnectPool__fast_free__["ConnectPool::fast_free()"]
+    construct_single_player_start["construct_single_player_start"]
+    copy_and_send_audio_data["copy_and_send_audio_data"]
+    copy_and_speex_encode["copy_and_speex_encode"]
+    copy_and_speex_encode_template["copy_and_speex_encode_template"]
+    countstr["countstr"]
+    createProfiler["createProfiler"]
+    csprintf___psprintf["csprintf / psprintf"]
+    Decode["Decode"]
+    DecompressDXTC1__DecompressDXTC3__DecompressDXTC5["DecompressDXTC1, DecompressDXTC3, DecompressDXTC5"]
+    dequeue_network_speaker_data["dequeue_network_speaker_data"]
+    dialog__add["dialog::add"]
+    dialog__layout["dialog::layout"]
+    dialog__process_events["dialog::process_events"]
+    Dim3_SetupParseTree["Dim3_SetupParseTree"]
+    disconnect__["disconnect()"]
+    dispatchIncomingMessages_____dispatchOneIncomingMessage__["dispatchIncomingMessages() / dispatchOneIncomingMessage()"]
+    display_screen["display_screen"]
+    DisplayMessages["DisplayMessages"]
+    DisplayPosition["DisplayPosition"]
+    Draw["Draw"]
+    draw_polygon["draw_polygon"]
+    draw_styled_text["draw_styled_text"]
+    DrawCachedPolygons["DrawCachedPolygons"]
+    drop_upring_player__static_["drop_upring_player (static)"]
+    dump["dump"]
+    DuplicatingTickBasedCircularQueue__reset["DuplicatingTickBasedCircularQueue::reset"]
+    DynamicLimits_GetParser["DynamicLimits_GetParser"]
+    end["end"]
+    end__overload__PSPSDLProfiler_["end (overload: PSPSDLProfiler)"]
+    Error___Validation__luaL_error__luaL_argerror__luaL_typerror_["Error & Validation (luaL_error, luaL_argerror, luaL_typerror)"]
+    ExternalSoundHeader__LoadExternal["ExternalSoundHeader::LoadExternal"]
+    FileFinder__Find____macOS_version_["FileFinder::Find() (macOS version)"]
+    FileFinder__Find____SDL_version_["FileFinder::Find() (SDL version)"]
+    find_file_with_modification_date["find_file_with_modification_date"]
+    find_wad_file_that_has_checksum["find_wad_file_that_has_checksum"]
+    FindBoneTransform__static_["FindBoneTransform (static)"]
+    FindFrameTransform__static_["FindFrameTransform (static)"]
+    flushOutgoingMessages__["flushOutgoingMessages()"]
+    game_window_is_full_screen["game_window_is_full_screen"]
+    GameAvailableMetaserverAnnouncer__GameAvailableMetaserverAnnouncer["GameAvailableMetaserverAnnouncer::GameAvailableMetaserverAnnouncer"]
+    GatherDialog__gathered_player["GatherDialog::gathered_player"]
+    GatherDialog__idle["GatherDialog::idle"]
+    get_application_directory["get_application_directory"]
+    get_capture_byte_count_per_packet["get_capture_byte_count_per_packet"]
+    get_default_map_spec["get_default_map_spec"]
+    get_default_spec__string_overload_["get_default_spec (string overload)"]
+    get_flat_data___inflate_flat_data["get_flat_data / inflate_flat_data"]
+    get_object_facing_T____set_object_facing_T_["get_object_facing<T> / set_object_facing<T>"]
+    get_platform_data["get_platform_data"]
+    get_shape_surface["get_shape_surface"]
+    get_team_net_ranking["get_team_net_ranking"]
+    GetAngle["GetAngle"]
+    getpstr___getcstr["getpstr / getcstr"]
+    GlobalMetaserverChatNotificationAdapter__receivedChatMessage___receivedPrivateMessage___receivedBroadcastMessage___receivedLocalMessage___roomDisconnected["GlobalMetaserverChatNotificationAdapter::receivedChatMessage / receivedPrivateMessage / receivedBroadcastMessage / receivedLocalMessage / roomDisconnected"]
+    handle["handle"]
+    handle__MessageHandlerMethod_["handle (MessageHandlerMethod)"]
+    handle__TypedMessageHandlerFunction_["handle (TypedMessageHandlerFunction)"]
+    handle_keyword["handle_keyword"]
+    handle_network_game["handle_network_game"]
+    hub_cleanup["hub_cleanup"]
+    hub_received_game_data_packet_v1["hub_received_game_data_packet_v1"]
+    hub_received_network_packet["hub_received_network_packet"]
+    hub_tick["hub_tick"]
+    HUD_Class__motion_sensor_scan["HUD_Class::motion_sensor_scan"]
+    idle_game_state["idle_game_state"]
+    ImageDescriptor__GetMipMapPtr__both_const_and_non_const_["ImageDescriptor::GetMipMapPtr (both const and non-const)"]
+    ImageDescriptor__LoadDDSFromFile["ImageDescriptor::LoadDDSFromFile"]
+    ImageDescriptor__LoadMipMapFromFile["ImageDescriptor::LoadMipMapFromFile"]
+    ImageDescriptor__MakeDXTC3["ImageDescriptor::MakeDXTC3"]
+    ImageDescriptor__MakeRGBA["ImageDescriptor::MakeRGBA"]
+    ImageDescriptor__Minify["ImageDescriptor::Minify"]
+    ImageDescriptor__Resize__both_overloads_["ImageDescriptor::Resize (both overloads)"]
+    ImageDescriptor__SkipMipMapFromFile["ImageDescriptor::SkipMipMapFromFile"]
+    Initialize["Initialize"]
+    initialize_clip_data["initialize_clip_data"]
+    initialize_fades["initialize_fades"]
+    initialize_game_state["initialize_game_state"]
+    initialize_motion_sensor["initialize_motion_sensor"]
+    initialize_net_game["initialize_net_game"]
+    initialize_terminal_manager["initialize_terminal_manager"]
+    InitMapFonts["InitMapFonts"]
+    input_controller["input_controller"]
+    JoinDialog__attemptJoin["JoinDialog::attemptJoin"]
+    JoinDialog__gathererSearch["JoinDialog::gathererSearch"]
+    L_Enum_name__index_t___Register["L_Enum<name, index_t>::Register"]
+    L_Invalidate_Monster__L_Invalidate_Projectile__L_Invalidate_Object["L_Invalidate_Monster, L_Invalidate_Projectile, L_Invalidate_Object"]
+    ListToStream__template_["ListToStream (template)"]
+    LNat_Os_Socket_Udp_Setup["LNat_Os_Socket_Udp_Setup"]
+    load_collection["load_collection"]
+    load_font["load_font"]
+    load_placement_data["load_placement_data"]
+    LoadLuaScript["LoadLuaScript"]
+    LoadModel_Dim3["LoadModel_Dim3"]
+    LoadModel_Wavefront["LoadModel_Wavefront"]
+    LoadModelSkin["LoadModelSkin"]
+    LoadSubstituteTexture["LoadSubstituteTexture"]
+    lua_call___lua_pcall["lua_call / lua_pcall"]
+    lua_close["lua_close"]
+    lua_delete_object_T___template_["lua_delete_object<T> (template)"]
+    Lua_Monsters_register["Lua_Monsters_register"]
+    lua_newstate["lua_newstate"]
+    luaL_openlibs["luaL_openlibs"]
+    luaM_growaux_["luaM_growaux_"]
+    luaM_toobig["luaM_toobig"]
+    luaV_execute["luaV_execute"]
+    mac_roman_to_utf8___utf8_to_mac_roman["mac_roman_to_utf8 / utf8_to_mac_roman"]
+    machine_tick_count["machine_tick_count"]
+    make_nonconflicting_filename_variant["make_nonconflicting_filename_variant"]
+    make_player_netdead["make_player_netdead"]
+    mark_environment_collections["mark_environment_collections"]
+    Meta___Option_Handling__luaL_getmetafield__luaL_callmeta__luaL_checkoption_["Meta & Option Handling (luaL_getmetafield, luaL_callmeta, luaL_checkoption)"]
+    MetaserverClientUi__GameSelected___PlayerSelected["MetaserverClientUi::GameSelected / PlayerSelected"]
+    Model3D__AdjustNormals["Model3D::AdjustNormals"]
+    Model3D__BuildInverseVSIndices["Model3D::BuildInverseVSIndices"]
+    Model3D__Clear["Model3D::Clear"]
+    Model3D__FindBoundingBox["Model3D::FindBoundingBox"]
+    Model3D__FindPositions_Frame["Model3D::FindPositions_Frame"]
+    Model3D__FindPositions_Neutral["Model3D::FindPositions_Neutral"]
+    Model3D__FindPositions_Sequence["Model3D::FindPositions_Sequence"]
+    Model3D__RenderBoundingBox["Model3D::RenderBoundingBox"]
+    Model3D_Transform__Identity["Model3D_Transform::Identity"]
+    monster_can_enter_platform___monster_can_leave_platform["monster_can_enter_platform / monster_can_leave_platform"]
+    move_projectiles["move_projectiles"]
+    myTMCleanup["myTMCleanup"]
+    myTMDumpProfile__DEBUG_only_["myTMDumpProfile (DEBUG only)"]
+    myTMRemove["myTMRemove"]
+    myTMSetup___myXTMSetup["myTMSetup / myXTMSetup"]
+    myXTMSetup["myXTMSetup"]
+    NetDDPCloseSocket["NetDDPCloseSocket"]
+    NetDDPDisposeFrame["NetDDPDisposeFrame"]
+    NetDDPNewFrame["NetDDPNewFrame"]
+    NetDDPOpenSocket["NetDDPOpenSocket"]
+    NetDDPSendFrame["NetDDPSendFrame"]
+    NetLookup_BuildTypeString["NetLookup_BuildTypeString"]
+    NetLookupClose["NetLookupClose"]
+    NetLookupOpen_SSLP["NetLookupOpen_SSLP"]
+    NetRegisterName["NetRegisterName"]
+    NetUnRegisterName["NetUnRegisterName"]
+    network_gather["network_gather"]
+    new_item["new_item"]
+    new_media["new_media"]
+    new_platform["new_platform"]
+    NextPowerOfTwo["NextPowerOfTwo"]
+    NonblockingConnect__Thread__["NonblockingConnect::Thread()"]
+    object_was_just_destroyed["object_was_just_destroyed"]
+    OGL_FrameTickTextures["OGL_FrameTickTextures"]
+    OGL_LoadModelsImages___OGL_UnloadModelsImages["OGL_LoadModelsImages / OGL_UnloadModelsImages"]
+    OGL_LoadTextures["OGL_LoadTextures"]
+    OGL_StartTextures["OGL_StartTextures"]
+    OGL_StopTextures["OGL_StopTextures"]
+    Open_FileSpecifier__File_["Open(FileSpecifier& File)"]
+    open_network_microphone["open_network_microphone"]
+    open_network_speaker["open_network_speaker"]
+    open_res_file_from_rwops["open_res_file_from_rwops"]
+    OpenGL_GetParser["OpenGL_GetParser"]
+    ParseData["ParseData"]
+    ParseFile_FileSpecifier__file_name_["ParseFile(FileSpecifier &file_name)"]
+    place_initial_objects["place_initial_objects"]
+    player_touch_platform_state["player_touch_platform_state"]
+    Postgame_report_functions__external_["Postgame report functions (external)"]
+    process_flags__static_["process_flags (static)"]
+    process_packet_buffer_flags__static_["process_packet_buffer_flags (static)"]
+    pstrdup["pstrdup"]
+    pstrncpy["pstrncpy"]
+    pull_flags_from_recording["pull_flags_from_recording"]
+    pumpAll["pumpAll"]
+    ReadInt16Value__ReadUInt16Value__ReadInt32Value__ReadUInt32Value__ReadFloatValue["ReadInt16Value, ReadUInt16Value, ReadInt32Value, ReadUInt32Value, ReadFloatValue"]
+    recalculate_and_display_color_table["recalculate_and_display_color_table"]
+    receive_some__["receive_some()"]
+    receive_thread_function["receive_thread_function"]
+    received_network_audio_proc["received_network_audio_proc"]
+    receiveHeader__["receiveHeader()"]
+    receiveSpecificMessage__["receiveSpecificMessage()"]
+    recreate_objects["recreate_objects"]
+    RegisterLuaFunctions["RegisterLuaFunctions"]
+    remap_bitmap["remap_bitmap"]
+    render_tree["render_tree"]
+    ReportInterpretError["ReportInterpretError"]
+    ReportParseError["ReportParseError"]
+    ReportReadError["ReportReadError"]
+    RequestAbort["RequestAbort"]
+    ResetAllMMLValues["ResetAllMMLValues"]
+    RingGameProtocol__Enter["RingGameProtocol::Enter"]
+    RingGameProtocol__Exit1["RingGameProtocol::Exit1"]
+    RingGameProtocol__Exit2["RingGameProtocol::Exit2"]
+    RingGameProtocol__Sync["RingGameProtocol::Sync"]
+    RunLuaScript["RunLuaScript"]
+    save_game_full_auto["save_game_full_auto"]
+    ScalarProd["ScalarProd"]
+    sdl_font_info___unload["sdl_font_info::_unload"]
+    SDLNetx_EnableBroadcast["SDLNetx_EnableBroadcast"]
+    send_audio_data["send_audio_data"]
+    send_identification_packet["send_identification_packet"]
+    send_packet["send_packet"]
+    send_packets["send_packets"]
+    sendMessage__["sendMessage()"]
+    set_adjacent_platform_states["set_adjacent_platform_states"]
+    set_keyboard_controller_status["set_keyboard_controller_status"]
+    set_map_file["set_map_file"]
+    set_network_microphone_state["set_network_microphone_state"]
+    set_platform_state["set_platform_state"]
+    setHandlerForType["setHandlerForType"]
+    setLoggingThreshhold____setShowLoggingLocations____setFlushLoggingOutput__["setLoggingThreshhold(), setShowLoggingLocations(), setFlushLoggingOutput()"]
+    SetPixelOpacities__dispatcher_["SetPixelOpacities (dispatcher)"]
+    SetStatus["SetStatus"]
+    setup_gl_extensions["setup_gl_extensions"]
+    setupAndConnectClient["setupAndConnectClient"]
+    should_restore_game_networked["should_restore_game_networked"]
+    simulate_mouse_position["simulate_mouse_position"]
+    SmallMessageHelper__deflate["SmallMessageHelper::deflate"]
+    SmallMessageHelper__inflateFrom["SmallMessageHelper::inflateFrom"]
+    SoundFile__AddCustomSoundSlot["SoundFile::AddCustomSoundSlot"]
+    SoundFile__NewCustomSoundDefinition["SoundFile::NewCustomSoundDefinition"]
+    SoundHeader__Load__const_uint8_variant_["SoundHeader::Load (const uint8 variant)"]
+    SoundHeader__Load__OpenedFile__variant_["SoundHeader::Load (OpenedFile& variant)"]
+    SoundHeader__UnpackExtendedSystem7Header["SoundHeader::UnpackExtendedSystem7Header"]
+    StarGameProtocol__UnSync["StarGameProtocol::UnSync"]
+    Start["Start"]
+    stop_fade["stop_fade"]
+    stop_transmitting_audio["stop_transmitting_audio"]
+    StreamToBytes__inline_["StreamToBytes (inline)"]
+    StreamToList__template_["StreamToList (template)"]
+    StreamToValue__extern_overloads_for_uint16__int16__uint32__int32_["StreamToValue (extern overloads for uint16, int16, uint32, int32)"]
+    StringSet__Add["StringSet::Add"]
+    style_at["style_at"]
+    styled_text_width["styled_text_width"]
+    take_mytm_mutex___release_mytm_mutex["take_mytm_mutex / release_mytm_mutex"]
+    TextureManager__RenderNormal___RenderGlowing["TextureManager::RenderNormal / RenderGlowing"]
+    TextureManager__Setup["TextureManager::Setup"]
+    TextureState__Allocate["TextureState::Allocate"]
+    TextureState__FrameTick["TextureState::FrameTick"]
+    TextureState__Reset["TextureState::Reset"]
+    TextureState__Use["TextureState::Use"]
+    TopLevelLogger__popLogContext__["TopLevelLogger::popLogContext()"]
+    TransformPoint__inline_["TransformPoint (inline)"]
+    TransformVector__inline_["TransformVector (inline)"]
+    transmit_captured_data["transmit_captured_data"]
+    TryToReduceMainThreadPriority["TryToReduceMainThreadPriority"]
+    ttf_font_info___unload["ttf_font_info::_unload"]
+    TypedMessageHandlerFunction__handle["TypedMessageHandlerFunction::handle"]
+    update_adaptive_latency__static__conditional_compile_["update_adaptive_latency (static, conditional compile)"]
+    update_everything["update_everything"]
+    update_inventory_panel["update_inventory_panel"]
+    update_mouse_analog["update_mouse_analog"]
+    update_mouse_digital["update_mouse_digital"]
+    update_net_game["update_net_game"]
+    update_platforms["update_platforms"]
+    update_suit_energy["update_suit_energy"]
+    ValueToStream__extern_overloads_for_uint16__int16__uint32__int32_["ValueToStream (extern overloads for uint16, int16, uint32, int32)"]
+    VecAdd["VecAdd"]
+    vsnprintf["vsnprintf"]
+    w_enabling_toggle__selection_changed["w_enabling_toggle::selection_changed"]
+    w_entry_point_selector__setGameType["w_entry_point_selector::setGameType"]
+    w_env_select__set_path["w_env_select::set_path"]
+    w_found_players__found_player["w_found_players::found_player"]
+    w_open_preferences_file["w_open_preferences_file"]
+    w_players_in_game2__draw_bar_or_bars["w_players_in_game2::draw_bar_or_bars"]
+    XML_AmmoDisplayParser__AttributesDone["XML_AmmoDisplayParser::AttributesDone"]
+    XML_ColorParser__AttributesDone["XML_ColorParser::AttributesDone"]
+    XML_ColorParser__HandleAttribute["XML_ColorParser::HandleAttribute"]
+    XML_DynLimValueParser__Start["XML_DynLimValueParser::Start"]
+    XML_FogParser__Start["XML_FogParser::Start"]
+    XML_ScenarioParser__HandleAttribute__["XML_ScenarioParser::HandleAttribute()"]
+  end
+
+  a1_p2cstr___a1_c2pstr --> memmove
+  a1_p2cstr___a1_c2pstr --> strlen
+  pstrncpy --> memcpy
+  pstrncpy --> memset
+  pstrdup --> malloc
+  myTMSetup___myXTMSetup --> myXTMSetup
+  myTMCleanup --> delete
+  FileFinder__Find____macOS_version_ --> buffer
+  StreamToBytes__inline_ --> memcpy
+  BytesToStream__inline_ --> memcpy
+  get_default_spec__string_overload_ --> data_search_path
+  find_wad_file_that_has_checksum --> data_search_path
+  find_file_with_modification_date --> data_search_path
+  allocate_pathfinding_memory --> new
+  allocate_pathfinding_memory --> delete
+  load_placement_data --> objlist_clear
+  load_placement_data --> obj_clear
+  place_initial_objects --> add_objects
+  recreate_objects --> _recreate_objects
+  object_was_just_destroyed --> add_objects
+  new_platform --> get_polygon_data
+  new_platform --> calculate_platform_extrema
+  new_platform --> adjust_platform_endpoint_and_line_heights
+  new_platform --> adjust_platform_for_media
+  update_platforms --> change_polygon_height
+  update_platforms --> adjust_platform_sides
+  update_platforms --> adjust_platform_endpoint_and_line_heights
+  update_platforms --> set_adjacent_platform_states
+  update_platforms --> set_platform_state
+  update_platforms --> get_polygon_data
+  update_platforms --> get_platform_definition
+  update_platforms --> adjust_platform_for_media
+  update_platforms --> play_platform_sound
+  set_platform_state --> get_platform_data
+  set_platform_state --> set_adjacent_platform_states
+  set_platform_state --> play_platform_sound
+  player_touch_platform_state --> get_platform_data
+  player_touch_platform_state --> get_platform_definition
+  player_touch_platform_state --> set_platform_state
+  player_touch_platform_state --> play_platform_sound
+  monster_can_enter_platform___monster_can_leave_platform --> get_polygon_data
+  monster_can_enter_platform___monster_can_leave_platform --> get_platform_data
+  adjust_platform_endpoint_and_line_heights --> get_platform_data
+  adjust_platform_endpoint_and_line_heights --> get_polygon_data
+  adjust_platform_endpoint_and_line_heights --> get_line_data
+  calculate_platform_extrema --> get_platform_data
+  calculate_platform_extrema --> get_polygon_data
+  adjust_platform_for_media --> get_platform_data
+  adjust_platform_for_media --> get_polygon_data
+  set_adjacent_platform_states --> set_platform_state
+  set_adjacent_platform_states --> get_platform_data
+  set_adjacent_platform_states --> get_polygon_data
+  adjust_platform_sides --> get_platform_data
+  adjust_platform_sides --> get_polygon_data
+  adjust_platform_sides --> get_line_data
+  allocate_player_memory --> new
+  update_mouse_digital --> mouse_vx
+  update_mouse_digital --> mouse_vy
+  update_mouse_analog --> mouse_vx
+  update_mouse_analog --> mouse_vy
+  simulate_mouse_position --> mouse_vx
+  simulate_mouse_position --> mouse_vy
+  Code_Loading__luaL_loadfile__luaL_loadstring__luaL_loadbuffer_ --> lua_pcall
+  lua_newstate --> f
+  lua_call___lua_pcall --> lua_pcall
+  lua_call___lua_pcall --> L
+  lua_call___lua_pcall --> nresults
+  luaV_execute --> L
+  dump --> f
+  _PSPSDLProfilerMg__destructor_ --> delete
+  begin --> lastCalled
+  end__overload__PSPSDLProfiler_ --> lastCalled
+  createProfiler --> begin
+  XML_ScenarioParser__HandleAttribute__ --> true
+  ChatHistory__append --> m_history
+  ChatHistory__clear --> m_history
+  TryToReduceMainThreadPriority --> true
+  LoadModel_Dim3 --> Normals
+  TransformPoint__inline_ --> ScalarProd
+  TransformVector__inline_ --> ScalarProd
+  FindFrameTransform__static_ --> cosine_table
+  FindFrameTransform__static_ --> sine_table
+  FindBoneTransform__static_ --> FindFrameTransform
+  FindBoneTransform__static_ --> ScalarProd
+  Model3D__AdjustNormals --> objlist_copy
+  Model3D__AdjustNormals --> objlist_clear
+  Model3D__BuildInverseVSIndices --> objlist_clear
+  Model3D__FindPositions_Neutral --> TransformPoint
+  Model3D__FindPositions_Neutral --> TransformVector
+  Model3D__FindPositions_Neutral --> objlist_copy
+  Model3D__FindPositions_Frame --> TMatMultiply
+  Model3D__FindPositions_Frame --> TransformPoint
+  Model3D__FindPositions_Frame --> TransformVector
+  Model3D__FindPositions_Sequence --> FindFrameTransform
+  Model3D__FindPositions_Sequence --> TMatMultiply
+  Model3D__FindPositions_Sequence --> TransformPoint
+  Model3D__FindPositions_Sequence --> TransformVector
+  Model3D_Transform__Identity --> obj_clear
+  LoadModel_Wavefront --> Normals
+  NonblockingConnect__Thread__ --> SDLNet_ResolveHost
+  ConnectPool__connect_const_std__string___uint16_ --> NonblockingConnect
+  ConnectPool__connect_const_IPaddress__ --> NonblockingConnect
+  ConnectPool__fast_free__ --> delete
+  MetaserverClientUi__GameSelected___PlayerSelected --> gMetaserverClient
+  Client__handleAcceptJoinMessage --> _awaiting_map
+  Client__drop --> _awaiting_map
+  network_gather --> gMetaserverClient
+  GatherDialog__idle --> m_ungathered_players
+  GatherDialog__gathered_player --> m_ungathered_players
+  JoinDialog__attemptJoin --> JoinerSeekingGathererAnnouncer
+  NetLookup_BuildTypeString --> memcpy
+  NetLookup_BuildTypeString --> strlen
+  NetLookupOpen_SSLP --> NetLookup_BuildTypeString
+  NetRegisterName --> NetLookup_BuildTypeString
+  NetRegisterName --> SDLNet_ResolveHost
+  NetRegisterName --> free
+  copy_and_speex_encode --> copy_and_speex_encode_template
+  send_audio_data --> NetDistributeInformation
+  send_audio_data --> received_network_audio_proc
+  copy_and_send_audio_data --> copy_and_speex_encode
+  copy_and_send_audio_data --> send_audio_data
+  dequeue_network_speaker_data --> sSoundBuffers
+  dequeue_network_speaker_data --> kMaxDryDequeues
+  close_network_speaker --> sSoundBuffers
+  hub_received_network_packet --> AIStreamBE
+  send_packets --> AOStreamBE
+  send_packet --> AOStreamBE
+  send_identification_packet --> AOStreamBE
+  receive_thread_function --> sPacketHandler
+  receive_thread_function --> fdprintf
+  receive_thread_function --> memcpy
+  NetDDPOpenSocket --> BoostThreadPriority
+  NetDDPOpenSocket --> fdprintf
+  NetDDPNewFrame --> malloc
+  NetDDPNewFrame --> memset
+  NetDDPDisposeFrame --> free
+  NetDDPSendFrame --> memcpy
+  RingGameProtocol__Enter --> malloc
+  RingGameProtocol__Enter --> NetDDPNewFrame
+  RingGameProtocol__Enter --> obj_clear
+  RingGameProtocol__Exit1 --> myTMRemove
+  RingGameProtocol__Exit2 --> NetDDPDisposeFrame
+  RingGameProtocol__Exit2 --> free
+  RingGameProtocol__Sync --> NetSendRingPacket
+  RingGameProtocol__Sync --> machine_tick_count
+  process_packet_buffer_flags__static_ --> process_flags
+  process_packet_buffer_flags__static_ --> NetBuildRingPacket
+  process_packet_buffer_flags__static_ --> NetRebuildRingPacket
+  process_packet_buffer_flags__static_ --> NetSendRingPacket
+  process_packet_buffer_flags__static_ --> memcpy
+
